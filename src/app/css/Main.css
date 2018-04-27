@@ -1,0 +1,30 @@
+
+.logo {
+    width: 300px;
+    background: rgba(255,255,255,.2);
+  overflow: hidden;
+}
+.logo-img{
+    height: 100px;
+  width: 150px;
+
+}
+#nav{
+    position: relative;
+}
+.nav-right{
+    position: absolute;
+    right: 30px;
+    height: 100%;
+}
+.padding-item{
+    padding: 0 5px;
+}
+.loadApp,.login,.register{
+    cursor: pointer;
+}
+.loadApp:hover,.login:hover,.register:hover{
+    color: #1890ff;
+}
+
+
